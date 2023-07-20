@@ -21,7 +21,7 @@ Installation is simple. It can be installed from using the following command:
 ```
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt install zip unzip -y
-$ unzip AutoInstallGo.zip
+$ unzip installgo.zip
 $ chmod +x installgo && chmod +x installgomod
 $ ./installgo
 $ GOROOT=/usr/local/go && GOPATH=$HOME && PATH=$GOPATH/bin:$GOROOT/bin:$PATH
